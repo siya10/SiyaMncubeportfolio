@@ -14,6 +14,7 @@ body {
       position: fixed;
       width: 100%;
       height: 80px;
+      background-color: #000;
 }
 
 .brand, .search, .menu {
@@ -290,13 +291,15 @@ h1 span {
 
 .waxon_tm_about {
       width: 100%;
-      height: auto;
+      height: 100vh;
       clear: both;
       float: left;
       margin-bottom: 193px;
       padding-top: 230px;
+      
 }
 .containe {
+      
       max-width: 1400px;
       width: 100%;
       margin-left: auto;
@@ -340,7 +343,7 @@ body.dark .waxon_tm_about .name h3 .bg {
       font-weight: 900;
       opacity: .1;
       line-height: 0;
-      -webkit-text-stroke: 1px #000;
+      -webkit-text-stroke: 2px #000;
       
 }
 
